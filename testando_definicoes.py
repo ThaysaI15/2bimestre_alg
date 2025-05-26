@@ -18,12 +18,20 @@
 # tuplas = {}
 # conjuntos = set()
 
+# lista:
 # teste = [1, 2, 3, 5]
 # print(teste)
 # teste.append(4)
 # print(teste)
 
-teste = {1, 2, 3, 5}
-print(teste)
-teste.remove{1}
-print(teste)
+# tuplas:
+# teste = {1, 2, 3, 5}
+# print(teste)
+# teste.remove{1}
+# print(teste)
+
+# conjuntos:
+teste = {1, 2, 2, 3, 5}
+print {teste}
+# teste.remove(1)
+# print(teste)
