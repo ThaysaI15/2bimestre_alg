@@ -8,7 +8,7 @@ print("Recebido:", rastreio.count("Recebido"))
 print("Em Trânsito", rastreio.count("Em Trânsito"))
 
 for i in rastreio:
-    if i == "Em Trânsito":
+    if rastreio[i] == "Em Trânsito":
         indices.append(pacotes2[i])
 
 rastreamento = input("insira o código do rastreamento: ")
