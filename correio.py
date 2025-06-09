@@ -10,16 +10,12 @@ print("Em Trânsito", rastreio.count("Em Trânsito"))
 for i in rastreio:
     if rastreio[i] == "Em Trânsito":
         indices.append(pacotes2[i])
+print ("Pacotes em Trânsito: ", indices)
 
 rastreamento = input("insira o código do rastreamento: ")
 for i in pacotes:
     if rastreamento == pacotes[i]:
         indice = i
         print ("O status do pacote é: ", rastreio[indice])
-
-
-# print("Pacotes em trânsito:", pacotes2)
-
-# rastr = input("Insira o código de rastreamento para ver os status do pacote: ")
-# if rastr in pacotes:
-#     print("Posição da primeira ocorrência do número 7:", numero.index(7))
+    if rastreamento != pacotes[i]:
+        print ("Pacote não está cadastrado")
